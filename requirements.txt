@@ -1,0 +1,61 @@
+# Core ML libraries
+# Core ML libraries
+torch==2.7.0
+torchvision==0.22.0
+torchaudio==2.7.0
+transformers==4.51.3
+datasets==3.5.0
+trl==0.16.1
+peft==0.7.1
+accelerate==1.6.0
+evaluate==0.4.3
+huggingface-hub==0.30.2
+tokenizers==0.21.1
+
+# Data processing
+regex==2024.11.6
+pandas==2.2.3
+numpy==1.26.4
+scikit-learn==1.6.1
+scipy==1.15.2
+
+# AWS SDK and SageMaker
+boto3==1.37.34
+sagemaker==2.175.0
+
+# Math and project-specific
+latex2sympy2_extended==1.10.1
+math-verify==0.7.0
+
+# Utilities
+tqdm==4.67.1
+python-dotenv==1.1.0
+
+# Optional for development
+# jupyter
+# notebook
+# ipykernel
+# seaborn==0.13.2
+
+# bitsandbytes==0.41.3  # Uncomment if needed for 8-bit quantization
+sagemaker==2.175.0
+awscli>=1.29.0
+
+# Utilities
+tqdm
+matplotlib
+tensorboard
+ipywidgets
+jupyter
+ipykernel
+
+# Environment management
+python-dotenv
+
+# Optional: for custom container building
+docker
+
+# Project-specific: for mathematical equivalence in reward function
+antlr4-python3-runtime==4.13.2
+latex2sympy2-extended==1.10.1
+math_verify==0.7.0
