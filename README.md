@@ -8,18 +8,10 @@
 > Fine-tune an instruction-tuned LLM (Qwen2.5B) on reasoning tasks using a DeepSeek R1-inspired pipeline (SFT + GRPO).  
 > Achieve competitive alignment using rule-based rewards — all for under $100 on AWS SageMaker.
 
-> **Based on the arXiv paper:**  
-> **Reasoning on a Budget: Miniaturizing DeepSeek R1 with SFT-GRPO Alignment for Instruction-Tuned LLMs**  
-> 📌 **[arXiv preprint coming soon – check back for DOI link]**
+> **📖 Read the Full Article (Narimissa, 2025)**
+>> **Reasoning on a Budget: Miniaturizing DeepSeek R1 with SFT-GRPO Alignment for Instruction-Tuned LLMs**  
+> 📌 **DOI: [10.36227/techrxiv.174742969.91776650/v1](https://doi.org/10.36227/techrxiv.174742969.91776650/v1)**
 
-> **📖 Read the Full Article**
->
-> For a detailed description of the methodology, experiments, and results, please read our companion article (coming soon on arXiv):
->
-> **Reasoning on a Budget: Miniaturizing DeepSeek R1 with SFT-GRPO Alignment for Instruction-Tuned LLMs**
->
-> _A future update will include the direct arXiv link here._
->
 > The article provides:
 > - Theoretical background and motivation
 > - Full details of the SFT and GRPO training stages
@@ -318,6 +310,12 @@ python scripts/launch_grpo_job.py \
 *   Implement distributed training support.
 
 ---
+## Citation
+
+If you use this code or build upon this training pipeline, please cite:
+
+> Narimissa, Esmaeil. *Reasoning on a Budget: Miniaturizing DeepSeek R1 with SFT-GRPO Alignment for Instruction-Tuned LLMs*. TechRxiv, May 2025.  
+> DOI: [10.36227/techrxiv.174742969.91776650/v1](https://doi.org/10.36227/techrxiv.174742969.91776650/v1)
 
 ## Contact
 
